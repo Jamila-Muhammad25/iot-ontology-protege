@@ -1,1 +1,289 @@
-Initial ontology placeholder added
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jamil/ontologies/2026/3/untitled-ontology-3/"
+     xml:base="http://www.semanticweb.org/jamil/ontologies/2026/3/untitled-ontology-3/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:iot-ontology-protege="http://github.com/Jamila-Muhammad25/iot-ontology-protege#">
+    <owl:Ontology rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#belongsToNetwork -->
+
+    <owl:ObjectProperty rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#belongsToNetwork"/>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#connectedTo -->
+
+    <owl:ObjectProperty rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#connectedTo"/>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#controls -->
+
+    <owl:ObjectProperty rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#controls"/>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#installedIn -->
+
+    <owl:ObjectProperty rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#installedIn"/>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#locatedIn -->
+
+    <owl:ObjectProperty rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#locatedIn"/>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#monitors -->
+
+    <owl:ObjectProperty rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#monitors"/>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#ownedBy -->
+
+    <owl:ObjectProperty rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#ownedBy"/>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#sendsDataTo -->
+
+    <owl:ObjectProperty rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#sendsDataTo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#Actuator -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Actuator"/>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#Alarm -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Alarm">
+        <rdfs:subClassOf rdf:resource="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Actuator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#Camera -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Camera">
+        <rdfs:subClassOf rdf:resource="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#Datastream -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Datastream"/>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#Device -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Device"/>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#Doorlock -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Doorlock">
+        <rdfs:subClassOf rdf:resource="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Actuator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#Environment -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Environment"/>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#Fan -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Fan">
+        <rdfs:subClassOf rdf:resource="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Actuator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#Gateway -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Gateway"/>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#Heater -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Heater">
+        <rdfs:subClassOf rdf:resource="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Actuator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#HumiditySensor -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#HumiditySensor">
+        <rdfs:subClassOf rdf:resource="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#Location -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Location"/>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#MotionSensor -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#MotionSensor">
+        <rdfs:subClassOf rdf:resource="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#Network -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Network"/>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#Sensor -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Sensor"/>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#Smartlight -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Smartlight">
+        <rdfs:subClassOf rdf:resource="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#Smartphone -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Smartphone">
+        <rdfs:subClassOf rdf:resource="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#SmokeSensor -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#SmokeSensor">
+        <rdfs:subClassOf rdf:resource="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#TemperatureSensor -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#TemperatureSensor">
+        <rdfs:subClassOf rdf:resource="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Sensor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#Thermostat -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Thermostat">
+        <rdfs:subClassOf rdf:resource="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#User -->
+
+    <owl:Class rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#User"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#Bedroom -->
+
+    <owl:NamedIndividual rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Bedroom"/>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#HomeWiFi -->
+
+    <owl:NamedIndividual rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#HomeWiFi"/>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#LivingRoom -->
+
+    <owl:NamedIndividual rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#LivingRoom"/>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#SmartLight01 -->
+
+    <owl:NamedIndividual rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#SmartLight01">
+        <iot-ontology-protege:locatedIn rdf:resource="http://github.com/Jamila-Muhammad25/iot-ontology-protege#Bedroom"/>
+        <iot-ontology-protege:ownedBy rdf:resource="http://github.com/Jamila-Muhammad25/iot-ontology-protege#UserJamila"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#TempSensor01 -->
+
+    <owl:NamedIndividual rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#TempSensor01">
+        <iot-ontology-protege:locatedIn rdf:resource="http://github.com/Jamila-Muhammad25/iot-ontology-protege#LivingRoom"/>
+        <iot-ontology-protege:sendsDataTo rdf:resource="http://github.com/Jamila-Muhammad25/iot-ontology-protege#HomeWiFi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://github.com/Jamila-Muhammad25/iot-ontology-protege#UserJamila -->
+
+    <owl:NamedIndividual rdf:about="http://github.com/Jamila-Muhammad25/iot-ontology-protege#UserJamila"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
